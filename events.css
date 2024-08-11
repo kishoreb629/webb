@@ -1,0 +1,158 @@
+.navbar
+{
+    height:100px;
+    width:100%; 
+    border:1px rgb(13, 13, 14);
+    display:flex;
+    background-color:silver;
+    background-image:no-repeat;
+    background-size:cover;
+    background-position:flex-start;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav1
+{
+    height:100%;
+    width:30%;
+    display:flex;
+    align-items:center;
+}
+.nav1 img
+{
+    height:auto;
+    width:100px;
+    border-radius:70px;
+    margin-left:20px;
+}
+.nav2
+{
+    height:100%;
+    width:40%;
+    list-style:none;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    color:#070607;
+}
+.nav3
+{
+    height:100%;
+    width:30%;
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+}
+.nav3 button
+{
+    margin-right:20px;
+    padding:8px 40px ;
+    color:#0c0c0c;
+    background-color:transparent;
+    border:0;
+    border: 2px dashed;
+    border-color:#060707;
+    border-radius:0 15px 0 15px;
+    font-weight:600;
+    transition:0.5s;
+    cursor:pointer;
+}
+.nav3 button:hover
+{
+    background-color:rgb(246, 249, 250);
+    color:rgb(59, 74, 214);
+}
+.nav3 i
+{
+    font-size:25px ;
+    margin-right:20px;
+    display:none;
+    color:#f8f2f2
+}
+.content
+{
+    height:550px;
+    width:100%;
+    border:1px rgb(8, 8, 8);
+    background-image:url(https://media.istockphoto.com/photos/white-sparkles-picture-id511870317?k=6&m=511870317&s=170667a&w=0&h=Z2WLjbY8GDRDy8QCsDcFGnLrUpPov23enFWrRqhcMnc=);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.con1
+{
+    height: 180px;
+    width:100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.con2
+{
+    height: 180px;
+    width:100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.con3
+{
+    height:180px;
+    width:100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    
+}
+.e1
+{
+    height:180px;
+    width:20%;
+    background-image: url(https://coderstrustbd.com/wp-content/uploads/2021/06/AWD.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:flex-end;
+    background-size:cover;
+}
+.e2
+{
+    height: 50px;
+    width:40%;
+}
+.e11
+{
+    height:180px;
+    width:20%;
+    background-image: url(https://its509.com/wp-content/uploads/2019/07/creative-3.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:flex-end;
+    background-size:cover;
+}
+.e2
+{
+    height: 50px;
+    width:40%;
+}
+.e111
+{
+    height:180px;
+    width:20%;
+    background-image: url(https://tse2.mm.bing.net/th/id/OIP.AnnoPASZNqM8avfNiSlNpwHaE8?rs=1&pid=ImgDetMain);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:flex-end;
+    background-size:cover;
+}
+.e2
+{
+    height: 50px;
+    width:40%;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.0;
+    
+}

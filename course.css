@@ -1,0 +1,119 @@
+.navbar
+{ 
+    height:100px; 
+    width:100%; 
+    border:1px rgb(13, 13, 14);
+    display:flex;
+    background-color: silver;
+    background-image:no-repeat;
+    background-size:cover;
+    background-position:flex-start;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height:1.5;
+}
+.nav1
+{
+    height:100%;
+    width:30%;
+    display:flex;
+    align-items:center;
+}
+.nav1 img
+{
+    height:auto;
+    width:100px;
+    border-radius:70px;
+    margin-left:20px;
+}
+.nav2
+{
+    height:100%;
+    width:40%;
+    list-style:none;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    color:#070607;
+}
+.nav3
+{
+    height:100%;
+    width:30%;
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+}
+.nav3 button
+{
+    margin-right:20px;
+    padding:8px 40px ;
+    color:#0c0c0c;
+    background-color:transparent;
+    border:0;
+    border: 2px dashed;
+    border-color:#060707;
+    border-radius:0 15px 0 15px;
+    font-weight:600;
+    transition:0.5s;
+    cursor:pointer;
+}
+.nav3 button:hover
+{
+    background-color:rgb(246, 249, 250);
+    color:rgb(59, 74, 214);
+}
+.nav3 i
+{
+    font-size:25px;
+    margin-right:20px;
+    display:none;
+    color:#f8f2f2;
+}
+main
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-image:url(https://www.pixelstalk.net/wp-content/uploads/images1/Nice-Silver-image.jpg);
+    background-size:cover;
+}
+.product 
+{
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+}
+.product img 
+{
+    width:200px;
+    height:200px; 
+    object-fit: cover;
+}
+.button
+{
+    margin-right:20px;
+    padding:8px 40px ;
+    color:#0c0c0c;
+    background-color:transparent;
+    border:0;
+    border: 20px 0 30px 0 dashed;
+    border-color:#060707;
+    border-radius:0 15px 0 15px;
+    font-weight:600;
+    transition:0.5s;
+    cursor:pointer;
+}
+ button:hover
+{
+    background-color:rgb(13, 13, 14);
+    color:rgb(59, 74, 214);
+}

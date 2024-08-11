@@ -1,0 +1,157 @@
+.navbar
+{
+    height:100px;
+    width:100%; 
+    display:flex;
+    background-color:silver; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height:1.4;
+    
+}
+.nav1
+{
+    height:100%;
+    width:30%;
+    display:flex;
+    align-items:center;
+}
+.nav1 img
+{
+    height:auto;
+    width:100px;
+    border-radius:70px;
+    margin-left:20px;
+}
+.nav2
+{
+    height:100%;
+    width:40%;
+    list-style:none;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.nav3
+{
+    height:100%;
+    width:30%;
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+}
+.nav3 button
+{
+    margin-right:20px;
+    padding:8px 40px ;
+    color:#0c0c0c;
+    background-color:transparent;
+    border:0;
+    border: 2px dashed;
+    border-color:#060707;
+    border-radius:0 15px 0 15px;
+    font-weight:600;
+    transition:0.5s;
+    cursor:pointer;
+}
+.nav3 button:hover
+{
+    background-color:rgb(13, 13, 14);
+    color:rgb(59, 74, 214);
+}
+.nav3 i
+{
+    font-size:25px;
+    margin-right:20px;
+    display:none;
+    color:#f8f2f2
+}
+.content
+{
+    height:550px;
+    width:100%;
+    border:1px rgb(22, 22, 22);
+    background-image:url(https://zigoti.com/wp-content/uploads/2023/09/appraisal.jpg);
+    background-position:space-evenly;
+    background-repeat:no-repeat;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.con1
+{
+    height:230px;
+    width:150%;
+    color: rgb(12, 12, 12);
+    align-items: center;
+    justify-content: flex-end;
+    font-size:11px;
+}
+.con1 button
+{
+    padding:8px 7px;
+    color:#030303;
+    background-color:transparent ;
+    border:0;
+    border:2px dashed;
+    border-color:#161616;
+    border-radius:0 15px 0 15px ;
+    font-weight:600;
+    transition:0.5s;
+    cursor:pointer;
+}
+.con1 button:hover
+{
+    background-color:rgb(13, 13, 14);
+    color:rgb(88, 88, 161);
+} 
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content h3 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-left, .footer-center, .footer-right {
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.footer-left p, .footer-center ul, .footer-right p {
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.footer-center ul {
+    list-style-type: none;
+}
+
+.footer-center ul li {
+    margin-bottom: 8px;
+}
+
+.footer-center ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
